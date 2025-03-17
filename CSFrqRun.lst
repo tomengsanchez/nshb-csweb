@@ -1,0 +1,34 @@
+﻿Application     C:\Users\mrtom\AppData\Local\Temp\CSFrqRun10272.bch
+Type            BATCH
+Input Data      <<CSPro DB>> Z:\EcosysIt\CS WEb\LassoApp\LassoDataFile.csdb
+
+Date            Feb 27, 2025
+Start Time      15:39:55
+End Time        15:39:55
+
+CSPro Process Summary
+
+      ╔══════════════════════════════════════════════════════╗
+      ║        36 Records Read   100% of input file          ║
+      ║         0 Ignored:       0 Unknown         0 Erased  ║
+      ║         1 Messages:      1 E      0 W      0 User    ║
+      ╠═════════╦══════════════╦══════════════╦══════════════╣
+      ║  Level  ║  Input Case  ║  Bad Struct  ║  Level Post  ║
+      ╠═════════╬══════════════╬══════════════╬══════════════╣
+      ║      1  ║           5  ║           0  ║           5  ║
+      ╚═════════╩══════════════╩══════════════╩══════════════╝
+
+Process Messages
+
+*** LEVEL 0 POSTPROC has 1 message (1 E / 0 W / 0 U)
+    E   94531 There was a problem interacting with the frequency file: Could not create an Excel worksheet.
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   94531           1         There was a problem interacting with the frequency file: %s                                
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
